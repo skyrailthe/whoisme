@@ -79,7 +79,9 @@ label .sonicchar{
     height: 200px;
 }
 label .klinok{
-    height: 250px
+    height: 250px;
+    text-align: center;
+    
 }
 
 :checked+label img {
