@@ -1,17 +1,37 @@
-.form-group {
-    width: 75%;
+.home_descr{
+    width: 50rem;
+    margin: 20px auto;
+    align-items: center;
+}
+.main_menu{
     display: flex;
-    justify-content: space-around;
+    margin: 20px 0;
+    justify-content: center;
+}
+.home_main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+.form-group {
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     margin: 0 auto;
 }
 
 .form-group textarea {
-    width: 20%;
+    width: 50%;
 }
 
-.form-group h1 {
+.form-group h2 {
     display: inline-block;
 }
 
@@ -42,8 +62,7 @@ label {
     border: 1px solid #fff;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
+
     position: relative;
     margin: 10px;
     cursor: pointer;
@@ -69,18 +88,26 @@ label:before {
 label .NameChar{
     text-align: center;
 }
+
 label img {
     height: 155px;
-    text-align: center;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
 }
-
+label .bokunohero{
+    height: 155px;
+    display: flex;
+    margin: auto;
+}
 label .sonicchar{
     height: 200px;
+    display: flex;
+    margin: auto;
 }
 label .klinok{
     height: 250px;
+    display: flex;
+    margin: auto;
     
 }
 
