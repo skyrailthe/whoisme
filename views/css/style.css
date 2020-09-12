@@ -71,6 +71,7 @@ label .NameChar{
 }
 label img {
     height: 155px;
+    text-align: center;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
 }
@@ -80,7 +81,6 @@ label .sonicchar{
 }
 label .klinok{
     height: 250px;
-    text-align: center;
     
 }
 
