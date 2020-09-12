@@ -112,7 +112,7 @@ label .klinok{
 }
 
 :checked+label img {
-    display: none;
+    opacity: 0.3;
 }
 
 :checked+label {
