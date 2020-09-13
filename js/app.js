@@ -7,7 +7,9 @@
             new Route('klinok', 'klinok.html'),
             new Route('bokunohero', 'bokunohero.html'),
             new Route('sonicchar', 'sonicchar.html'),
-            new Route('pokemon', 'pokemon.html')
+            new Route('pokemon', 'pokemon.html'),
+            new Route('lastseraf', 'lastseraf.html')
+
 
 
 
@@ -15,3 +17,7 @@
     }
     init();
 }());
+
+$(document).ready(function () {
+    $('.dropdown-toggle').dropdown();
+});
