@@ -5,7 +5,7 @@
 }
 .main_menu{
     display: flex;
-    margin: 20px 0;
+    padding-top: 20px;
     justify-content: center;
 }
 .home_main_info{
@@ -17,6 +17,11 @@
     justify-self: center;
 
 }
+.btn-info:focus {
+color: #17a2b8;   
+background-color: white; 
+/* border-color: black; */
+}
 
 .form-group {
     width: 50rem;
@@ -24,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .form-group textarea {
@@ -90,25 +95,22 @@ label .NameChar{
 }
 
 label img {
-    height: 155px;
+    display: flex;
+    margin: auto;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
 }
 label .bokunohero{
     height: 155px;
-    display: flex;
-    margin: auto;
 }
 label .sonicchar{
     height: 200px;
-    display: flex;
-    margin: auto;
 }
 label .klinok{
     height: 250px;
-    display: flex;
-    margin: auto;
-    
+}
+label .pokemon{
+    height: 160px;
 }
 
 :checked+label img {
