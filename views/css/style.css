@@ -26,6 +26,9 @@ h1{
     margin: 20px auto;
     align-items: center;
 }
+.home_img{
+    height: 400px;
+}
 .list_players{
     display: flex;
     flex-direction: row;

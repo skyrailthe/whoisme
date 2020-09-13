@@ -8,7 +8,9 @@
             new Route('bokunohero', 'bokunohero.html'),
             new Route('sonicchar', 'sonicchar.html'),
             new Route('pokemon', 'pokemon.html'),
-            new Route('lastseraf', 'lastseraf.html')
+            new Route('lastseraf', 'lastseraf.html'),
+            new Route('rezero', 'rezero.html'),
+
 
 
 
