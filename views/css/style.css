@@ -179,11 +179,11 @@ label .overwatch{
     color: rgb(110, 110, 110);
 } */
 
-:checked+label:before {
+/* :checked+label:before {
     content: "✓";
     background-color: grey;
     transform: scale(1);
-}
+} */
 
 :checked+label img {
     transform: scale(0.9);
