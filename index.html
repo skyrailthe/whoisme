@@ -7,31 +7,37 @@
   <link rel="stylesheet" href="./views/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
 
-<body>
-  <header id="index-header" class="bg-light">
-    <h1 class="logo"><a id="logo" class="nav-link" href="#home">Кто я?</a></h1>
-    <ul class="main_menu navbar navbar-expand-lg " id="myTab" role="tablist">
-      <li class="nav-item"><a class="nav-link" href="#sonicchar">Соник</a></li>
-      <li><a href="#pokemon">Покемон</a></li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown">
-          Анимэ
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="#bokunohero">Моя геройская академия</a></li>
-          <li><a href="#klinok">Клинок рассекающий демонов</a></li>
-          <li><a href="#lastseraf">Последний серафим</a></li>
-          <li><a href="#rezero">Ре:Зеро</a></li>
 
-        </ul>
-      </li>
-    </ul>
-  </header>
-  <!-- <div class="list_players">
+<div onload="loadFrame()">
+  <div id="frame">
+    <iframe src="https://meme-police.ru/bg/who-am-i#phasc" width="100%" height="300vh" scrolling="no"></iframe>
+  </div>
+</div>
+
+<header id="index-header" class="bg-light">
+  <h1 class="logo"><a id="logo" class="nav-link" href="#home">Кто я?</a></h1>
+  <ul class="main_menu navbar navbar-expand-lg " id="myTab" role="tablist">
+    <li class="nav-item"><a class="nav-link" href="#sonicchar">Соник</a></li>
+    <li><a href="#pokemon">Покемон</a></li>
+    <li><a href="#overwatch">Overwatch</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown">
+        Анимэ
+        <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#bokunohero">Моя геройская академия</a></li>
+        <li><a href="#klinok">Клинок рассекающий демонов</a></li>
+        <li><a href="#lastseraf">Последний серафим</a></li>
+        <li><a href="#rezero">Ре:Зеро</a></li>
+      </ul>
+    </li>
+  </ul>
+</header>
+
+<!-- <div class="list_players">
     <div class="col-2">
       <label class="sr-only" for="inlineFormInputGroup"></label>
       <div class="input-group mb-2">
@@ -62,28 +68,18 @@
 
   </div> -->
 
-  <script class="who_am_i_site" type="text/javascript">
-    function loadFrame() {
-      document.getElementById('frame').scrollTop = 1;
-      document.getElementById('frame').scrollLeft = 1;
-    }
-  </script>
+<body>
 
 
-  <body onload="loadFrame()">
 
-    <div id="frame">
-      <iframe src="https://meme-police.ru/bg/who-am-i#phasc" width="100%" height="100%" scrolling="no"></iframe>
-    </div>
+  <div id="app">
 
-    <div id="app">
-
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="js/route.js"></script>
-    <script src="js/router.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/route.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
 
 </html>
