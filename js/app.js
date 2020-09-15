@@ -11,12 +11,7 @@
             new Route('lastseraf', 'lastseraf.html'),
             new Route('rezero', 'rezero.html'),
             new Route('overwatch', 'overwatch.html'),
-
-
-
-
-
-
+            new Route('onepunchman', 'onepunchman.html'),
 
         ]);
     }

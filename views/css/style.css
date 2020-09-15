@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+#collapse {
+    padding: 0px;
+}
+.btn-link{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin: 0;
+}
 .content{
     margin: 0;
 }
@@ -158,11 +167,19 @@ label .klinok{
 label .pokemon{
     height: 160px;
 }
-.overwatch_label{
+.overwatch_label {
     width: 250px;
     margin-right: -70px;
 }
+
 label .overwatch{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+label .onepunchman{
     height: 250px;
     display: flex;
     justify-content: center;
