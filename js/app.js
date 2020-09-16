@@ -12,7 +12,7 @@
             new Route('rezero', 'rezero.html'),
             new Route('overwatch', 'overwatch.html'),
             new Route('onepunchman', 'onepunchman.html'),
-
+            new Route('naruto', 'naruto.html'),
         ]);
     }
     init();
