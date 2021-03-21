@@ -13,6 +13,7 @@
             new Route('overwatch', 'overwatch.html'),
             new Route('onepunchman', 'onepunchman.html'),
             new Route('naruto', 'naruto.html'),
+            new Route('genshinimpact', 'genshinimpact.html'),
         ]);
     }
     init();
