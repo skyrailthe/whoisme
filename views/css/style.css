@@ -2,11 +2,21 @@
 #collapse {
     padding: 0px;
 }
+#myTab{
+    justify-content: flex-end;
+}
 .btn-link{
     display: flex;
     flex-direction: row;
     width: 250px;
     margin: 0;
+}
+.btn-sm{
+    width: 100px;
+
+}
+.btn{
+    text-align: right;
 }
 .content{
     margin: 0;
@@ -39,6 +49,7 @@ h1{
 }
 .main_menu{
     display: flex;
+    justify-content: space-between;
     width: 50%;
     margin: 0px;
 }
