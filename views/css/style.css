@@ -5,12 +5,9 @@
 #myTab{
     justify-content: flex-end;
 }
-.btn-link{
-    display: flex;
-    flex-direction: row;
+#GamePanel_btn{
     width: 250px;
-    margin: 0;
-}
+    }
 .btn-sm{
     width: 100px;
 
