@@ -14,6 +14,7 @@
             new Route('onepunchman', 'onepunchman.html'),
             new Route('naruto', 'naruto.html'),
             new Route('genshinimpact', 'genshinimpact.html'),
+            new Route('supernatural', 'supernatural.html'),
         ]);
     }
     init();

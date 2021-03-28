@@ -8,10 +8,9 @@
 #GamePanel_btn{
     width: 250px;
     }
-.btn-sm{
+/* .btn-sm{
     width: 100px;
-
-}
+} */
 .btn{
     text-align: right;
 }
@@ -171,6 +170,9 @@ label .sonicchar{
 }
 label .klinok{
     height: 250px;
+}
+.supernatural{
+    width: 100%;
 }
 label .pokemon{
     height: 160px;
