@@ -171,7 +171,12 @@ label .sonicchar{
 label .klinok{
     height: 250px;
 }
+.supernatural_label{
+    height: 340px;
+    width: 240px;
+}
 .supernatural{
+    height: 340px;
     width: 100%;
 }
 label .pokemon{
