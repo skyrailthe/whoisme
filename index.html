@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <title>Ігри хто я?</title>
   <link rel="stylesheet" href="./views/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <div class="collapse" id="collapseExample">
@@ -20,65 +19,63 @@
 </div>
 
 <header id="index-header" class="bg-light">
-  <h1 class="logo"><a id="logo" class="nav-link" href="#home">Хто я?</a></h1>
-  <ul class="main_menu navbar navbar-expand-lg " id="myTab" role="tablist">
-    
-    <div class="btn-group">
-      <button class=" btn-choose btn btn-link btn-sm dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Movies/Series
-      </button>
-      <div class="dropdown-menu">
-    <li><a href="#supernatural">Supernatural</a></li>
-      </div>
-    </div>
-    <div class="btn-group">
-      <button class=" btn-choose btn btn-link btn-sm dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Games
-      </button>
-      <div class="dropdown-menu">
-    <li><a href="#sonicchar">Sonic</a></li>
-    <li><a href="#pokemon">Pokemon Go</a></li>
-    <li><a href="#overwatch">Overwatch</a></li>
-    <li><a href="#genshinimpact">Genshin Impact</a></li>
-      </div>
-    </div>
-    <div class="btn-group">
-      <button class=" btn-choose btn btn-link btn-sm dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Anime
-      </button>
-      <div class="dropdown-menu">
-        <li><a href="#bokunohero">My hero academia</a></li>
-        <li><a href="#klinok">Demon Slayer</a></li>
-        <li><a href="#lastseraf">The last Seraph</a></li>
-        <li><a href="#rezero">RE:Zero</a></li>
-        <li><a href="#onepunchman">One Punch-Man</a></li>
-        <li><a href="#naruto">Naruto: Shippuuden</a></li>
-      </div>
-    </div>
+  <h1 class="logo"><a id="logo" class="nav-link" onclick="loadHomeContent()" style="cursor: pointer;">Хто я?</a></h1>
 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <li class="nav-item dropdown"></li>
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Movies/Series
+      </a>
+      <ul class="dropdown-menu">
+        <!-- <li class="dropdown-item">Supernatural</li> -->
       </ul>
     </li>
-  </ul>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <li class="nav-item dropdown"></li>
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Games
+      </a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item" id="sonicchar" onclick="findcontent(event)" style="cursor: pointer;">Sonic</li>
+        <li class="dropdown-item" id="pokemon" onclick="findcontent(event)" style="cursor: pointer;">Pokemon Go</li>
+        <li class="dropdown-item"id="overwatch" onclick="findcontent(event)" style="cursor: pointer;">Overwatch</li>
+        <li class="dropdown-item" id="genshinimpact" onclick="findcontent(event)" style="cursor: pointer;">Genshin Impact</li>
+      </ul>
+    </li>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <li class="nav-item dropdown"></li>
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Anime
+      </a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item" id="bokunohero" onclick="findcontent(event)" style="cursor: pointer;">My hero academia</li>
+        <!-- <li class="dropdown-item">Demon Slayer</li>
+        <li class="dropdown-item">The last Seraph</li>
+        <li class="dropdown-item">RE:Zero</li>
+        <li class="dropdown-item">One Punch-Man</li>
+        <li class="dropdown-item">Naruto: Shippuuden</li> -->
+      </ul>
+    </li>
+  </nav>
 
-
-  <button id="GamePanel_btn" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-    aria-controls="collapseExample">
+  <button id="GamePanel_btn" class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     Game panel
   </button>
 </header>
 
 <body>
 
+  <div id="routes">
 
+  </div>
 
   <div id="app">
 
   </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="js/route.js"></script>
-  <script src="js/router.js"></script>
-  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/downloader.js"></script>
 </body>
 
 </html>

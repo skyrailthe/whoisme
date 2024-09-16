@@ -163,7 +163,7 @@ label img {
     transform-origin: 50% 50%;
 }
 label .bokunohero{
-    height: 155px;
+    height: 300px;
 }
 label .sonicchar{
     height: 200px;
@@ -205,8 +205,9 @@ label .onepunchman{
     width: 300px;
     margin: 10px -45px;
 }
-.genshinimpact_img{
+label .genshinimpact{
     width: 300px;
+    margin: 0px -80px;
 }
 /* .genshinimpact_img_big{
     width: 600px;
